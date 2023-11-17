@@ -17,6 +17,8 @@ const etaPassegero = parseInt(prompt("Qaunti anni hai?"));
 console.log("età passegero:", etaPassegero);
 
 // calcolo costo biglietto senza sconti
+const costoBigliettoIniziale = kmViaggio * 0.21;
+console.log("costo del biglietto senza sconti", costoBigliettoIniziale, "€");
 
 // calcolo sconto 20%
 

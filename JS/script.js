@@ -10,9 +10,11 @@ Questo richiederà un minimo di ricerca.
 
 // prompt chilomentri del viaggio
 const kmViaggio = parseInt(prompt("Qaunti chilomentri sarà lungo il tuo viaggio?"));
-console.log(kmViaggio);
+console.log("km del viaggio:", kmViaggio);
 
 // prompt età passegiero
+const etaPassegero = parseInt(prompt("Qaunti anni hai?"));
+console.log("età passegero:", etaPassegero);
 
 // calcolo costo biglietto senza sconti
 

@@ -9,6 +9,8 @@ Questo richiederà un minimo di ricerca.
 */
 
 // prompt chilomentri del viaggio
+const kmViaggio = parseInt(prompt("Qaunti chilomentri sarà lungo il tuo viaggio?"));
+console.log(kmViaggio);
 
 // prompt età passegiero
 

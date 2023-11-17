@@ -18,11 +18,14 @@ console.log("età passegero:", etaPassegero);
 
 // calcolo costo biglietto senza sconti
 const costoBigliettoIniziale = kmViaggio * 0.21;
-console.log("costo del biglietto senza sconti", costoBigliettoIniziale, "€");
+console.log("costo del biglietto senza sconti:", costoBigliettoIniziale, "€");
 
 // calcolo sconto 20%
+const scontoVenti = costoBigliettoIniziale * 20 / 100;
+console.log("questo è lo sconto del 20%:",scontoVenti);
 
 // calcolo sconto 40%
+const scontoQuaranta = costoBigliettoIniziale * 40 / 100;
+console.log("questo è lo sconto del 40%:", scontoQuaranta);
 
 // applicazione sconti
-
